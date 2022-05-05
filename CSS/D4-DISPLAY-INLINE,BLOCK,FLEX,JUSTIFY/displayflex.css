@@ -1,0 +1,86 @@
+.item1{
+    background-color: tomato;
+    padding: 5px;
+    margin: 10px;
+}
+.flex1{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.flex2{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flex3{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.flex4{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex5{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex6{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex7{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.flex8{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex9{
+    /* height: 150px; */
+    /* width: 150px; */
+    margin: 10px;
+    padding: 30px;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column wrap;
+}

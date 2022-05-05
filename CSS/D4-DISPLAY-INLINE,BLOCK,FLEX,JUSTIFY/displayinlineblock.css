@@ -1,0 +1,44 @@
+/* #DISPLAY- WE CAN CHANGE THE ELEMENT PROPERTY OFINLINE ELEMENT TO BLOCKLINE 
+ ELEMENTS OR TO BLOCKLINE TO INLINE BY USING DISPLAY PROPERTY 
+ -BY DEFAULT VALUE OF DISPLAY ATTRIBUTE IS BLOCK.
+ #DISADVANTAGE OF INDIVISUAL BY USING *DISPLAY:INLINE* IS :-
+ 1.IF THE ELEMENT IS *INLINE* WE CANT APPLY HEIGHT AND WIDTH PROP/ATTRIBUTE OR EVEN IF WE 
+   APPLIED THE OUTPUT REMAINES SAME JUST IT WILL SHOW DIMENSIONS ON INSPECT DIAGRAM.
+ 2.IF THE ELEMENT IS *INLINE* THE PADDING PROP/ATTRIBUTE WILL OVERLAP ON THE VERTICAL ELEMENTS.
+  (ABOVE AND BELOW ELEMENTS)
+ 3.IF THE ELEMENT IS *INLINE* THE VERTICAL MARGIN CANNOT BE APPLIED.
+
+ -TO OVERCOME THIS 3 DISADVANTAGES WE GOING TO USE => display:inline-block ;
+ */
+
+ div{/*this shows all disadvantage of 3 points of the display:inline property*/
+    background-color: yellow;
+    height: 100px;/*height and width prop not working*/
+    width: 100px;
+    padding: 30px;/*padding overlapping on upper and below texts*/
+    margin: 50px;/*it applied on left and right but not working on top and bottom*/
+    display: inline;/*div is a blockline element but look by using this prop we turned into inline and it gives his space to ittaclic words */
+}
+b{
+background-color: blue;
+color: white;
+display: block;/*bolt tag is a inline but using this prop turned into block..occupies all width of parent and it not giving space to span tag below*/
+height: 100px;/*as a block height and width are working*/
+/* width: 100px; */
+padding: 30px;/*as a block padding are working*/
+margin:10px;/*as a margin are working*/
+}
+span{
+background-color: green;
+color: white;
+}
+p{
+    background-color: rgb(19, 231, 255);
+    color: rgb(255, 0, 38);
+    display: inline-block;/*All properties are working by using this attribute*/
+    height: 100px;
+    width: 200px;
+    padding: 30px;
+    margin: 20px;
+
+}

@@ -1,0 +1,47 @@
+.justify{
+    background-color: yellow;
+    margin: 20px;
+    padding: 10px;
+}
+.flex{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.flex1{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.flex2{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.flex3{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.flex4{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex5{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-evenly;
+}
