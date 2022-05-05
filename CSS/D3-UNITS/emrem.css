@@ -1,0 +1,21 @@
+html{
+    font-size: 10px;
+    margin: 50px;
+}
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 255, 47);
+    color: blueviolet;
+    padding: 32px;
+    font-size: 3em;/*3 times to the parent font size=3x10=30px*/
+}
+.child{
+    height: 4em;/*height will be 4 times to the current element font size=4x60=240px*/
+    width:3em;/* width will be 3 times to the current element font size=3x60=180px*/
+    background-color: rgb(179, 255, 0);
+    color: rgb(51, 0, 255);
+    padding: 0.5em;/* half of current font size=30px*/
+    margin: 1rem;/*1 times to root or html or body font size=1x10=10px*/
+    font-size: 2em;/*2 times to the parent font size=2x30=60px########### EXCEPTION ###########*/
+}

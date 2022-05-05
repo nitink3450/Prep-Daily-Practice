@@ -1,0 +1,10 @@
+/*  CIRCLE */
+div{
+    height: .5px;
+    width: .5px;
+    color: darkorange;
+    background-color: black;
+    border: 100px solid;
+    border-radius: 100px;
+    margin:0px 40% 0px;
+}

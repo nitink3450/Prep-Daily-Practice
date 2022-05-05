@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anchor tag by using base tag</title>
+
+    <!-- base tag used for when we have to provide the link of only one website but differents webpages of the same website
+         like profiles,orders,contact us..base tag will save our time to write down again and again website adrees in each anchor tag 
+         instead or writing on only one time in header file-->
+         <!-- base tag aslo used for when we give some incomplete or imperfect website address so instead of this imperfect addressit will 
+            direct run the base tag mentioned wewbsite address for all imperfect addresses -->
+    <base href="https://flipkart.com">
+</head>
+<body>
+    <!-- below 2 anchor tag will open there respective website bcoz there addresses are perfect -->
+    <a href="https://meesho.com" target="_blank">meesho</a><br>
+    <a href="https://google.com" target="_self">google</a><br><br>
+
+    <!-- below 3 anchor tag will open base tag website bcoz there addresses are imperfect -->
+    <b>FLIPKART</b><br>
+    <a href="order">orders page</a><br>
+    <a href="profile">my profile page</a><br>
+    <a href="contact">contact us page</a><br>
+
+    <!-- Anchor tags mostly used in iframes tags also -->
+    <!-- we can aslo write down addresses in relative path forms(../../) we will see in relative path section -->
+</body>
+</html>

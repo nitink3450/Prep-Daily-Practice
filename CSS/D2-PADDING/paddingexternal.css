@@ -1,0 +1,23 @@
+/*4 values padding=top,right,bottom,left*/
+h1{
+    padding: 10px 20px 30px 40px;
+}
+/*3 values padding=top,right/left,bottom*/
+h2{
+    padding: 10px 20px 30px;
+}
+/*2 values padding=top/bottom,right/left*/
+h3{
+    padding: 30px 40px;
+}
+/*1 values padding=top/bottom/right/left*/
+h4{
+    padding: 20px;
+}
+/* seperate individual padding */
+div{
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}

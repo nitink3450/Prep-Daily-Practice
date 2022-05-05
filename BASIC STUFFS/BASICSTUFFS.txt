@@ -1,0 +1,243 @@
+###########################################################################################################################
+------------------------------------------------HTML--------------------------------------------------------------
+###########################################################################################################################
+
+IN VS STUDIO:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+basic syntax of html code:
+<html>
+      <head>
+            <title>   </title>
+      </head>
+
+    <body>
+         
+    </body>
+
+</html>
+.....................................................
+#REACT:
+
+#ANGULAR:
+
+........................................................
+Video file= video_name.mp4
+Image file= image_name.jpg
+Plain text= file_name.txt
+C++ Code= file_name.cpp
+java Code= file_name.java
+html Code= file_name.html
+! enter=boilerplate code
+.........................................................
+ctrl + c = copy
+ctrl + v = paste        
+ctrl + z = undo
+ctrl + y = redo
+ctrl + x = cut
+ctrl + s = save
+ctrl + l = select line
+ctrl + A = select all
+ctrl + + = zoom in page
+ctrl + - = zoom out page
+ctrl + d = to select same words multiple times(to activate multicursor)
+long press Alt = to write down many same words at a time but in different places(to activate multicursor)
+ctrl + [ = all selected paragraph will move left side at once
+ctrl + ] = all selected paragraph will move right side at once
+&nbsp = it will give space in codes output
+cellspacing = 0 =it will merge 2 border in one
+................................................................
+
+/=forward slash
+\=backward slash
+{}=curly braces
+()=brackets
+[]square brackets
+;=semicolon
+"=single qoutes
+...............................................................
+code.visualstudio.com
+where,code=subdomain name 
+      visualstudio=domain name
+      com=TLD(top level domain name) e.g.= .org,.com,.in,.edu,
+.............................................................
+O(white bubble) = file Not saved
+x(crossed) = file saved
+..................................................................
+#Building blocks in html=
+A.Tags:[total 143 tags in html]
+*PHYSICAL TAGS-<b>,<i>
+*LOGICAL TAGS-<strong>
+   1.singular tags:-(SELF CLOSING TAGS / EMPTY TAGS)= it does not contain closing tags,just contain opening tag
+     a.<img> =image tag
+     b.<hr> =horizontal line
+     c.<br> =to brake line 
+     d.<input> =to get input from user(to make html forms)
+
+   2.paired tags:- it contain both opening as well as closing tags
+     a.<i> =italic
+     b.<b> =bold
+     c.<u> or <ins> =underline
+     d.<body> =to write content
+     e.<table> =to make table
+     f.<img> =to insert img 
+     g.<emp> =to make text italic
+     h.<mark> =to highlight with yellow color
+     i.<strong> = to make text important just same as bold
+     j.<strike> or <del> =to add black line trough the text center
+     k.<font> =to increase size
+     l.<video> =to insert video
+     m.<iframe> = to add another website in our webpage
+     n.<h1> = head tags
+     o.<a> = anchor tag
+     p.<p> =paragraph tag
+     q.<forms> =to make forms(just like thank u for ur response message after submitting the form)
+     r.<div> =used to make division content in webpage
+     s.<sub> =to write base bottom side of the text=subscripted text
+     t.<sup> =to write on top side of the text=superscripted text
+     u.<small> = to make text small
+     v.<> =
+     OPENING TAG= <>
+     CLOSING TAG= </>
+
+B.Attributes:
+   *in html tags and atrributes are case insensitive
+   *but attributes values are case sensitive
+   *it provides additional information about html element
+
+   e.g=width,height,src,placeholder
+
+C.Elements:
+   *it is the collection of tags attributes and contents
+
+   e.g.
+   <a href="google.com">google</a>
+   where,
+      <a=anchor tag
+      href=attributes
+      google.com=attribute values
+      google=content
+      </a>= closing tag
+      and all entire called elements
+
+where, href=HYPER REFERENCE
+
+############################################################################
+
+# ANCHOR TAG:
+  -Anchor tag used for linking web pages to each other 
+  e.g. 1) just like the "CLICK HERE"
+       2) <a href="google.com">google</a>
+          where,
+               a=anchor tag
+               href=attributes
+               google.com=attribute values
+               google=content
+               </a>= closing tag
+               and all entire called elements
+             
+#Appearance of the HTML anchor tag-
+       a.An unvisited link will display in underlined and blue in color
+       b.An visited link will display in underlined and purple/pink in color
+       c.An active link will display in underlined and red in color
+
+*Attribute=> A.href=HYPER REFERENCE:Attribute for link path or address
+             B.target:
+                       a.target="_self"......(Link will open in the same TAB)
+                       b.target="_blank"......(Link will open in the new TAB)
+                       c.target="_parent"......(Link will open in the parent TAB)
+                       d.target="_top"..........(Link will open in the main parent/grandparent/body/html TAB)
+
+# META TAG:
+            -META tag is used to show our webpage in the top of the SEO engine(on google)
+            -used to show imp text and rank our web page on SEO
+            -MTA TAG is always in head tag
+            -and head tag includes:<title>,<link>,<script>,<meta>,<base>,<style>,<link>
+
+#######################################################################################################
+#TABLES:
+
+ <table>
+        <tr>
+            <th>NAME</th>     ......table heading in bolded
+            <th>AGE</th>
+            <th>COLLAGE</th>
+        </tr>
+        <tr>
+            <td>Nitin</td>    ......table content not bolded
+            <td>22</td>
+            <td>Nmiet</td>
+        </tr>
+    </table>
+where,
+       a.th=table heading
+       b.td=table data
+       c.tr=table row
+
+#######################################################################################################
+#FAVICONS: WEBSITE LOGO/PHOTO/DP
+
+<head>
+    <title></title>
+    <link rel="icon" href="./image.jpg"       ...rel=relation
+</head>
+
+#######################################################################################################
+#GIT COMMANDS:
+
+git config --global user.name "nitin k" = to resistor name in git CLI.
+git config --global user.email "nitinkanhurkar2016@gmail.com" = to resistor email address.
+git config --global edit user.name "Nitin k" = to rename/re-edit name in git CLI.(same for email)
+git --version = to check git version.
+
+mkdir folder_name = to creat folder.
+rmdir folder_name = to delete/remove folder.
+notepad file_name.html = to create html,text file.
+rm file_name.html or del/f file_name.html = to delete/remove html file.
+code . (code space dot)= to open current file or folder in direct vs studio.
+clear = to clear all commads.
+ls or dir = to look into the folder/file.
+cd ./ or cd ../ = to navigate to in/out folders.
+cd D:/ = to navigate through drives.
+git init = to initializing empty local repo in pc.
+git status = to see whether local repo files are connected to remote repo or not.
+git add . or git ad file1 file2 = to add/link files to local repo.
+git commit -m "message of edition" = to save changes.
+git remote add origin "remote repo link.git"
+git push -u origin master = to upload all files to github.
+git pull origin master = to fetch changes and compare 2 files and update.
+
+###########################################################################################################################
+------------------------------------------------CSS--------------------------------------------------------------
+###########################################################################################################################
+
+#SELECTORS-
+
+TAG: p{}, b{}, h1{}, div{}, span{}
+CLASS: .P{}, .B{}, .h1{}, .div{}, .test1{}, .test2{}....classs name can be repeated.
+STAR: *{}............it apllies to all page.
+ID: #unique, #single.........id names cannot be repeated it should be unique and single key
+
+[[[[[[[[[[[[ SHORTCUTS ]]]]]]]]]]]]
+
+p.test = <p class="test"></p>....class
+b.test2*4 =<b class="test2"></b> <b class="test2"></b> <b class="test2"></b> <b class="test2"></b>...multiple class
+section#nitin = <section id="nitin"></section>...id
+input:submit= <input type="submit"></input>......input tags
+input:radio*4 = <input type="radio"></input> <input type="radio"></input> <input type="radio"></input> <input type="radio"></input>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

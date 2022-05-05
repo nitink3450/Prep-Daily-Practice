@@ -1,0 +1,19 @@
+.parent{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(0, 255, 47);
+    color: rgb(255, 0, 0);
+    padding: 32px;
+}
+/* e.g.25% of 300=(25x300)/100=75 */
+/* by default font size is always 16px */
+/* by default margin is always 8px */
+.child{
+    height: 50%;/*50% of parent height,200px=100px*/
+    width: 25%;/*25% of parent width,300px=75px*/
+    background-color: rgb(179, 255, 0);
+    color: rgb(51, 0, 255);
+    padding: 20%;/*20% of parent width,300px=60px*/
+    margin: 10%;/*10% of parent width,300px=30px*/
+    font-size: 200%;/*200% of parent font size (by default 16px),16px=32px*/
+}

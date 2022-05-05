@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 200px;
+    color: yellow;
+    background-color: blue;
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 5px;
+    margin: 30px;
+}

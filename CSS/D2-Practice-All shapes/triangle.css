@@ -1,0 +1,54 @@
+div{
+    background-color: blue;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid rgb(255, 255, 255);
+    border-right: 100px solid rgb(255, 255, 255);
+    /* border-top: 100px solid yellow; */
+    border-bottom: 100px solid green;
+}
+p{
+    background-color: blue;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid green;
+    /* border-right: 100px solid rgb(255, 255, 255); */
+    border-top: 100px solid rgb(255, 255, 255);
+    border-bottom: 100px solid rgb(255, 255, 255);
+    margin-left: 100px;
+}
+pre{
+    background-color: blue;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid rgb(255, 255, 255);
+    border-right: 100px solid rgb(255, 255, 255);
+    border-top: 100px solid green;
+    /* border-bottom: 100px solid green; */    
+}
+h1{
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+    /* border-left: 100px solid rgb(255, 255, 255); */
+    border-right: 100px solid green;
+    border-top: 100px solid rgb(255, 255, 255);
+    border-bottom: 100px solid transparent;   
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

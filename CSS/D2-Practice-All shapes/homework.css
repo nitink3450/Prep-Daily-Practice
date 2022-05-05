@@ -1,0 +1,11 @@
+div{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-bottom: 100px solid blue ;
+    border-left: 100px solid green;
+    border-right: 100px solid yellow;
+    border-top: 100px solid red;
+    margin: 0px 40% 0px;
+    border-radius: 100px;
+}

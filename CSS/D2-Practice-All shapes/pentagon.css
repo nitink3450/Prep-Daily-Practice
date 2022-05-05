@@ -1,0 +1,29 @@
+div{
+                   height: 0px;
+                   width: 0px;              
+                   border-left: 100px solid transparent;
+                   border-right: 100px solid transparent;    
+                   margin: 0px 40% 0px;        
+}
+.triangle1{
+                   border-bottom: 100px solid blue;                
+}
+.triangle2{
+                   border-top: 100px solid blue;           
+}
+#hexagon2{
+                   height: 100px;
+                   width: 200px;
+                   background-color: blue;
+                   margin: 0px 40% 0px;  
+}
+#pentagon2{
+                   height: 0px;
+                   width: 100px;
+                   border-top: 100px solid blue;
+                   border-left: 100px solid white;
+                   border-left-width: 50px;
+                   border-right: 100px solid white;
+                   border-right-width: 50px;
+                   margin: 0px 40% 0px; 
+}

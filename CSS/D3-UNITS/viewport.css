@@ -1,0 +1,18 @@
+.parent{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(0, 255, 47);
+    color: blueviolet;
+    padding: 32px;
+    font-size: 100px;
+}
+/* If width and heigth of the view port is 600x800 */
+.child{
+    height:20vh;/*20% of viewport height(vh),800=160*/
+    width: 30vw;/*30% of viewport width(vw),600=180*/
+    background-color: rgb(179, 255, 0);
+    color: rgb(51, 0, 255);
+    padding: 20%;/*(20x300)/100=60*/
+    margin: 10%;/*(10x300)/100=30*/
+    font-size: 50%;/*(50x100)/100=50*/
+}

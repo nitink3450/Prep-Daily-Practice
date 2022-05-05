@@ -1,0 +1,53 @@
+div{
+    height: 0px;
+    width: 0px;
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    margin: 0px 40% 0px;
+}
+.tri1{
+    border-bottom:100px solid green;
+}
+#tri2{
+    border-top: 100px solid green;
+}
+pre{
+    height: 0px;
+    width: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    margin: 0px;
+    display: inline-block;
+}
+#border{
+    height: 140px;
+    width: 140px;
+    color: green;
+    border-left: 30px solid;
+    border-right: 30px solid;
+    margin: 0px 40% 0px;
+}
+.semi{
+    height: 0px;
+    width: 200px;
+    margin: 0px 40% 0px;
+    background-color: blue;
+    border-bottom: 100px solid green;
+    border-radius: 0px 0px 100px 100px;
+}
+.penta{
+    height: 0px;
+    width: 100px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+    margin: 0px 40% 0px;
+}
+#penta2{
+    height: 0px;
+    width: 100px;
+    border-top: 100px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    margin: 0px 40% 0px; 
+}
