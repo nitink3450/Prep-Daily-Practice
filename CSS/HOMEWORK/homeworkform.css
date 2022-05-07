@@ -1,0 +1,46 @@
+.container_main{
+    min-height:97vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .container-1{
+    height: 50vh;
+    width: 30%;
+    background-color: #1e9cce;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    
+} */
+.form{
+    background-color: rgb(255, 255, 255);
+    color: #848484;
+    height: 40%;
+    width: 75%;
+    text-align: center;
+    padding: 30px;
+    border: 50px solid #1e9cce;  
+    margin-top: 200px;
+    border-radius: 2px; 
+}
+#button{
+    height: 50px;
+    width: 100%;
+    background-color: #1e9cce;
+    color: white;
+    font-weight: 1000;
+    border:0px;
+    border-radius: 2px;
+}
+.box{
+    height: 45px;
+    width: 97%;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgb(235, 235, 235);
+}
+.link{
+    color: white;
+}
+

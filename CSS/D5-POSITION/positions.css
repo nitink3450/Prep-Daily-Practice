@@ -1,0 +1,43 @@
+p{
+    background-color: yellow;
+    border: solid 10px red;
+    border-radius: 10px;
+    /* display: inline-block; */
+
+}
+b{
+    background-color: pink;
+    border: solid 10px rgb(0, 0, 255);
+    border-radius: 10px;
+
+}
+.absolute{
+   position: absolute;/*text will move w.r.t. top/right/bottom/left and it will float to another one ..just like floating on static*/
+   top:40px;
+   right:0px;
+   bottom: 0px;
+   left: 80px;
+}
+.static{
+    position: static;/*No use of top/right/bottom/left coz it can be applied to non static positions*/
+    top:100px;
+    right:100px;
+    bottom: 100px;
+    left: 100px;
+}
+.relative{
+    position: relative;/*text will move w.r.t. its original position with top/left and right/bottom only*/
+    top:30px;
+    left:30px;
+
+}
+.fixed{
+    position: fixed;/*it will fix on one position even u schroll the page it hold the place same*/
+    top:0px;
+    left: 800px;
+}
+.sticky{
+    position: sticky;/*it will stick to one place but it will move by schrolling*/
+    right:0px;
+    font-style: italic;
+}
