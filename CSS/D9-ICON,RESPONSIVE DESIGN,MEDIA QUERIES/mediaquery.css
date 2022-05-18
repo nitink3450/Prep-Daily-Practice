@@ -1,0 +1,12 @@
+p{
+ color: red;
+}
+
+
+
+@media (max-width:500px){
+
+    p{
+        color: green;
+    }
+}

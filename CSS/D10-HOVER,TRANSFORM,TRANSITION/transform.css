@@ -1,0 +1,52 @@
+div{
+    margin: 20px;
+}
+.nk{
+    background-color: green;
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border: 2px solid black;
+}
+/* TRANSFORM-ROTATE */
+.one{
+    transform: rotateX(45deg);
+}
+.two{
+    transform: rotateY(45deg);
+}
+.three{
+    transform: rotateZ(45deg);
+}
+/* TRANSFORM-TRANSLATE */
+.four{
+    transform:translateX(300px)
+}
+.five{
+    transform: translateY(90px);
+}
+.six{
+    transform: translateZ(100px);
+}
+.seven{
+    transform: translate(300px ,100px);
+}
+.eight{
+    transform: scaleX(2);
+}
+.nine{
+    transform: scaleY(2);
+}
+.ten{
+    transform: scaleX(2) scale(2) translateX(100px);
+}
+.eleven{
+    transform: scale(2,0.5) translateX(100px);
+}
+.twelve{
+    transform: rotateZ(45deg) translateX(100px);
+}

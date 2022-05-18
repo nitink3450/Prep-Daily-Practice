@@ -37,7 +37,7 @@ b{
     left: 800px;
 }
 .sticky{
-    position: sticky;/*it will stick to one place but it will move by schrolling*/
-    right:0px;
+    position: sticky;/*it will stick to one place until it reach its offset value like relative and static but it will move after it will reach after offset value it behave like fixed position*/
     font-style: italic;
+    top: 400px;
 }

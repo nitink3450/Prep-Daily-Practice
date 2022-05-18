@@ -1,0 +1,32 @@
+div{
+    height: 30vh;
+    width: 15vw;
+    position: absolute;
+    border-radius: 100%;
+    padding: 50px;
+    color: red;
+}
+.one{
+    background-color: yellow;
+    top: 30px;
+    left: 10px;
+    z-index: 1;
+}
+.two{
+    background-color: green;
+    top: 200px;
+    left: 30px;
+    z-index: 3;
+}
+.three{
+    background-color: orange;
+    top: 100px;
+    left: 80px;
+    z-index: 4;
+}
+.four{
+    background-color: aqua;
+    top: 70px;
+    left: 190px;
+    z-index: 2;
+}

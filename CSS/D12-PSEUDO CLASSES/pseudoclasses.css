@@ -1,0 +1,75 @@
+button{
+    height: 30px;
+    width: 100px;
+}
+button:enabled{
+    background-color: red;
+}
+button:disabled{
+    background-color: green;
+}
+input:enabled{
+    background-color: yellow;
+}
+input:disabled{
+    background-color: aqua;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+input:checked{
+    height: 20px;
+    width: 20px;
+}
+input:valid{
+    color: green;
+}
+input:invalid{
+    color: rgb(255, 0, 0);
+}
+input:focus{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+p:first-child{
+    background-color: blue;
+}
+p:last-child{
+    background-color: blueviolet;
+}
+b:first-of-type{
+    background-color: chartreuse;
+}
+b:last-of-type{
+    background-color: yellowgreen;
+}
+.item{
+    height: 50px;
+    width: 300px; 
+    border:solid 2px ;
+    display: inline-block;
+    text-align: center;
+}
+.item::before{
+    content: 'A';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+.item::after{
+    content: 'B';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,34 @@
+.main-container{
+    background-color: dodgerblue;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    /* gap: 20px; */
+    column-gap: 30px;
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+.one{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid; 
+    /* grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3; */
+}
+.ok{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: -30px -40px 2px red;
+}
+.okk{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

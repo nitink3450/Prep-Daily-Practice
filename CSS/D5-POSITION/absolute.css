@@ -1,0 +1,23 @@
+.grandfather{
+    background-color: yellow;
+    position: absolute;
+    top: 50px;/*it will act w.r.t. browser outline*/
+
+    
+}
+.father{
+    background-color: tomato;
+    position: relative;
+}
+.son{
+    background-color: aqua;
+    position: absolute;/*here position is absolute but it will not going to act w.r.t. browser
+     outline,it will act to its 1st non static parent position i.e. fathers position is static 
+     or not check it. if it is static it will act w.r.t.browser outline.but it is non static i.e. 
+     now position of father is relative so it will act w.r.t relative i.e. its original position */
+     top: 5px;
+     left: 15px;/*w.r.t. orange color i.e. 1st non statix parent*/
+}
+.item{
+    padding: 30px;
+}

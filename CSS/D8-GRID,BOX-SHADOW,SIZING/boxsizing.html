@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./boxsizing.css">
+</head>
+<body>
+    <h1>1.BOX-SIZING:</h1>
+    <div class="item">CONTENT-BOX</div><br>
+    <b>#CONTENT-BOX(By default): given(Content/text area) height is 100px,width is 100px,padding is 10px, border is 20px,but for content box after applying padding and border it content/text area H and W will remain same but total height and width of the box will change by concluding the padding and borders dimensions it will become total height=160 and width=160(height:Bt+Pt+Content height+Pb+Bb=20+10+100+10+20=160)same for width.[INSPECT THE CSS STYLE BOX]</b><br>
+    <br>
+    <div class="item1">BORDER-BOX</div><br>
+    <b>#BORDER-BOX: given(Content/text area) height is 100px,width is 100px,padding is 10px, border is 20px,but for Border box after applying padding and border it content/text area H and W will not remain same because total height and width of the box will not change only content/text area H and W will merge or adjust or reduces accorning to the padding and borders dimensions it will become total height=100 and width=100(height:Bt+Pt+Content height+Pb+Bb=20+10+40+10+20=100)same for width.[INSPECT THE CSS STYLE BOX]</b><br>
+    
+    <h1>2.BOX-SHADOW:</h1>
+    <div class="shadow">Nitin</div><br><br><br><br><br>
+
+    <h1 class="shadow2">3.TEXT-SHADOW:</h1>
+
+   
+</body>
+</html>

@@ -1,0 +1,45 @@
+.zero{
+    height: 300px;
+    width: 300px;
+    font-size: x-large;
+}
+.one{
+    background-color: yellow;
+    float:right;
+    /* clear:left; */
+}
+.two{
+    background-color: #2200ff;
+    float: right;
+    /* clear: left; */
+}
+.three{
+    background-color: #1aff00;
+    float: right;
+    clear: right;
+}
+.four{
+    background-color: #ff0000;
+    float: right;
+    /* clear: right; */
+}
+.five{
+    background-color: #00f2ff;
+    float:right;
+    /* clear:left; */
+}
+.six{
+    background-color: #ff9500;
+    float: left;
+    /* clear: left; */
+}
+.seven{
+    background-color: #ff00e6;
+    float:left;
+    /* clear: right; */
+}
+.eight{
+    background-color: #6200ff;
+    float: left;
+    /* clear: right; */
+}

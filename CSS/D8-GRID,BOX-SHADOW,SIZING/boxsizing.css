@@ -1,0 +1,32 @@
+.item{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    border: solid #11852a 20px;
+    box-sizing: content-box;/*by default*/
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    border: solid #11852a 20px;
+    box-sizing: border-box;
+}
+
+.shadow{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+    border: solid 10px red;
+    border-radius: 10px;
+    box-shadow: 50px 50px 2px gray;
+    /*box-shadow: left-offset top-offset bluriness color*/
+}
+.shadow2{
+    text-shadow:60px -40px 3px red;
+    /*box-shadow: left-offset top-offset bluriness color*/
+}

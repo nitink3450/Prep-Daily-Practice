@@ -1,0 +1,175 @@
+body{
+    /* display: inline; */
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+}
+.two{
+    height: 500px;
+    width: 300px;
+    border: 2px solid green;
+    background-image: url(./pexels-mark-stebnicki-2255935.jpg);
+    background-size: 300px 500px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-decoration: ;
+}
+.one{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image: linear-gradient(
+        to bottom left,
+        red,
+        blue,
+        green,
+        pink,
+        yellow,
+        aqua
+    );
+    background-size: 400px 400px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.three{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image: linear-gradient(
+        to top,
+        red 20%,
+        blue 30% 45%,
+        green 45% 60%,
+        pink 60% 75%,
+        yellow 75% 80%,
+        aqua 80%
+    );
+    background-size: 400px 400px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.eleven{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image: linear-gradient(
+        to right,
+        red 20%,
+        blue 30% 45%,
+        green 45% 60%,
+        pink 60% 75%,
+        yellow 75% 80%,
+        aqua 80%
+    );
+    background-size: 400px 400px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.twelve{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image: linear-gradient(
+        to top right,
+        red 20%,
+        blue 30% 45%,
+        green 45% 60%,
+        pink 60% 75%,
+        yellow 75% 80%,
+        aqua 80%
+    );
+    background-size: 400px 400px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.four{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image: linear-gradient(
+        70deg,
+        red 20%,
+        blue 30% 45%,
+        green 45% 60%,
+        pink 60% 75%,
+        yellow 75% 80%,
+        aqua 80%
+    );
+    background-size: 400px 400px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.five{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image: radial-gradient(
+        red 20%,
+        blue 30% 45%,
+        green 45% 60%,
+        pink 60% 75%,
+        yellow 75% 80%,
+        aqua 80%
+    );
+    background-size: 400px 400px;
+    /* border-radius: 50%; */
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.six{
+    height: 400px;
+    width: 400px;
+    border: 10px solid green;
+    background-image:conic-gradient(
+        red,
+        blue,
+        green ,
+        pink ,
+        yellow ,
+        aqua     );
+    background-size: 400px 400px;
+    /* border-radius: 50%; */
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.seven{
+    height: 500px;
+    width: 300px;
+    border: 2px solid green;
+    background-image: url(./black-ball.gif);
+    background-repeat: repeat;
+    /* background-size: 300px 500px; */
+    float: left;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}
+.eight{
+    height: 500px;
+    width: 300px;
+    border: 2px solid green;
+    background-image: url(./black-ball.gif);
+    background-repeat: repeat-y;
+    float: right;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}
+.nine{
+    height: 500px;
+    width: 300px;
+    border: 2px solid green;
+    background-image: url(./black-ball.gif);
+    background-repeat: repeat-x;
+    float: right;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}
+.ten{
+    height: 500px;
+    width: 300px;
+    border: 2px solid green;
+    background-image: url(./black-ball.gif);
+    background-repeat: no-repeat;
+    float: right;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
+}

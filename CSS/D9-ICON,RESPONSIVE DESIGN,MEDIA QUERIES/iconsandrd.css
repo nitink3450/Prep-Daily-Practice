@@ -1,0 +1,15 @@
+.material-icons{
+color: dodgerblue;
+border: 2px solid green;
+border-radius: 50%;
+font-size: xx-large;
+}
+.one{
+color: red;
+border: 2px solid rgb(200, 0, 255);
+border-radius: 50%;
+}
+.img{
+/* width: min(100vw, 600px); */
+width: max(100vw, 600px);
+}

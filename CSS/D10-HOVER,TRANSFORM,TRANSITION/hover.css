@@ -1,0 +1,21 @@
+button{
+background-color: red;
+height: 60px;
+width:150px;
+border: none;
+border-radius: 15px;
+box-shadow: 5px 5px 2px gray;
+display: flex;
+align-items: center;
+padding-left: 30px;
+font-size: larger;
+cursor: pointer;
+}
+.share{
+    margin: 5px;
+}
+button:hover{
+    border: 2px solid;
+    color: white;
+    background-color: blue;
+}
