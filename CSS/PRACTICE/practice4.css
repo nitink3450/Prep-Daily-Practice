@@ -1,0 +1,35 @@
+body{
+    /* background-color: black; */
+}
+*{
+    color: white;
+}
+.bg{
+    background-image: url(./2248803.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:100% 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg p{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family:cursive;
+    text-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+.bg button{
+width: 200px;
+height: 50px;
+background-color: rgb(0, 0, 0);
+border:solid 1px white;
+outline: none;
+border-radius: 10px;
+font-size: x-large;
+font-family:cursive;
+padding-bottom:10px ;
+}

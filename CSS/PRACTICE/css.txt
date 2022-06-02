@@ -1,0 +1,42 @@
+1.Difference between flex row and column 
+Ans--flex row is in the as per text which is written in same diraction by diffault.  
+     flex column is same as row but is from top to bottom.
+
+2.Explain inline , internal and external stylesheet
+Ans--external stylesheet which sapratly created css page and link to the HTML page which is place in head section.
+    internal stylesheet which element placed inside the HTML into a head section.
+    inline stylesheet which style attribute place inside HTML element it self.
+
+3.Justify-content allows you to do what?
+Ans--this property define the how browser distrubute the space between and around the content or element along the flex container of main axis and the inline of grid container.
+
+4.Difference between absolute and relative positioning
+Ans--place an content or element relative to its parent position and changing a layout around itself called as absolute positioning.
+     place a element to its relative to its current position without changing a layout around it so known as relative positioning.
+
+5.What is grid-template-columns used for?
+Ans--width and the number of column in grid  layout spacifies by this grid column template property, each of the column value of column spacifies the size of it.
+
+6.What is the z-index in CSS?
+Ans--it is an property of annimation in css that positioning the element which set the z ordered positioned element and its descendants or flex items.
+
+6.What is the difference between padding and margin?
+Ans--a margin is the space around an element's border, while padding is the space between an element's border and the element's content.
+
+7.What is box sizing?
+Ans--allow us to include the padding and border in an element total width and height.if u take a element of box in div its appear bigger than set value bt its not to much size is required so for limited size box if required than this property will use.
+
+8.What is animation delay?
+Ans--specifies the amount of time to wait from applying the animation to an element before begai to perform the animation such as called the animation dealy.
+
+9.Which property you will use to merge cells vertically in grid?
+Ans--callspan attribute use in <td> HTML tag.
+
+10.Which property you will use to merge cells horizontally in grid?
+Ans--rowspan attribute use in <td> HTML tag.
+
+11.Explain CSS box model.
+Ans--The  box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
+11.what is the difference between display none and visibility hidden?
+Ans--display none means that the tag in question will not appear on the page at all and space is tekan byh the browser , visibility hidden means that unlike display none , the tag is not visible, but space is allocated for it on the page. 

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button1{
+    background:#00a5ec no-repeat ;
+    padding: 12px 52px;
+    margin:20px 30px 20px 100px;
+    border: none;
+    color: white;
+    font-size: large;
+    border-radius: 4px;
+    font-family:verdana;
+}
+.button1:hover{
+    background-color:#0998d6 ;
+}
+.luffy{
+    margin: 30px 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.luffy1{
+    margin:30px 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hover1{
+    height: 100px;
+    width: 400px;
+    background-color:violet;
+    margin: 20px 50px;
+    transition: 2s all linear 0s;
+}
+.hover1:hover{
+    width: 500px;
+    height: 200px;
+    background-color: dodgerblue;
+}
+.circle1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 40px 60px;
+    border-radius: 50%;
+}
+.media{
+    
+    display:flex;
+    flex-flow: row wrap;
+}
+.cards{
+    margin: 30px;
+    padding: 20px;
+    background-color: yellowgreen;
+    border: 5px solid red;
+}
+.img{
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+}
+@media(min-width:1000px){
+    .cards{
+        height: 400px ;
+        width: 600px;
+    }
+    .img{
+        height: 800px;
+        width:1200px ;
+    }
+}
+.anime{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    border-top: 100px transparent solid;
+    border-left: 100px solid green;
+    border-bottom: 100px solid transparent;
+    border-right: red 100px solid;
+    border-radius: 50%;
+    animation:goku alternate 1s infinite 0s;
+}
+@keyframes goku {
+    100%{
+        transform: rotate(360deg)  ;
+    }
+}

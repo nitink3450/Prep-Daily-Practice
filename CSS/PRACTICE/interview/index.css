@@ -1,0 +1,14 @@
+.justify{
+    background-color: yellow;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.nk{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 20px ;
+    color: white;
+    font-size: x-large;
+}

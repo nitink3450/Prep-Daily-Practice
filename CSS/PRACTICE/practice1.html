@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .block{
+            background-color: violet;
+            height: 100px;
+            width: 600px;
+            margin: 10px 20px 30px 40px;
+            padding: 10px 20px 30px 40px;
+        }
+        .inline{
+            background-color: slateblue;
+            height: 100px;
+            width: 200px;
+            margin: 100px 20px 300px 10px;
+            padding: 100px 200px 300px 40px;
+
+        }
+    </style>
+</head>
+<body> 
+        <table cellpadding="50px" cellspacing="0" border="2px" width="400px" height="50px" >
+            <tr>
+                <th bgcolor="green">Name:</th>
+                <th bgcolor="green">Salary:</th>
+                <td align="center">Nitin</td>
+                <td align="center">25k</td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">Nitin</td>
+                <td colspan="3" align="center">25k</td>
+                <td align="center">Nitin</td>
+                <td align="center">25k</td>
+            </tr>
+            <tr>
+                <td align="center">nitin</td>
+                <td align="center">25k</td>
+                <td align="center">Nitin</td>
+                <td align="center">25k</td>
+            </tr>
+        </table>
+        
+        <!-- <form action="">
+                <b>COURSES:</b><br>
+                <input required type="radio" name="ONE" id="">MERN <br>
+                <input type="radio" name="TWO" id="">MEAN <br>
+                <br>
+                <b>TECHNOLOGY:</b><br>
+                <input type="checkbox" name="" id="">HTML <br>
+                <input type="checkbox" name="" id="">CSS <br>
+                <input type="checkbox" name="" id="">REACT <br>
+                <input type="checkbox" name="" id="">NODE <br>
+        </form> -->
+        <div class="form">
+            <form action="">
+                <input name="radio"   type="radio" name=""  >
+                <input name="radio"   type="radio" name=""  >
+                <input name="radio"  type="radio" name=""  >
+                <input name="radio"   type="radio" name=""  >
+            </form>
+            <form action="">
+                <input name="radio" required id="radio" type="radio">INDIA<br><br>
+                <input name="radio" required id="radio" type="radio">UK<br><br>
+                <input name="radio" required id="radio" type="radio">US<br><br>
+        
+            </form>
+        </div>
+
+        <div class="block">Nitin</div>
+        <span class="inline1">Nitin</span><br>
+        <span class="inline">Nitin</span>
+
+</body>
+</html>

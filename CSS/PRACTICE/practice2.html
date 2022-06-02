@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+        abbr{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="ol">
+        <h2>A.ordered list:</h2>
+        <ol type="1">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li>
+        </ol>
+        <ol type="A">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li>
+        </ol>
+        <ol type="a">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li>
+        </ol>
+        <ol type="I">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li>
+        </ol>
+        <ol type="i">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li>
+        </ol>
+    </div>
+    <div class="ul">
+        <h2>B.Unordered list:</h2>
+        <ul type="none">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li> 
+        </ul>
+        <ul type="disk">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li> 
+        </ul>
+        <ul type="circle">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li> 
+        </ul>
+        <ul type="square">
+            <li>Nitin</li>
+            <li>Nitin</li>
+            <li>Nitin</li> 
+        </ul>
+    </div>
+    <div class="dl">
+        <h2>C.Discription list</h2>
+        <dl>
+            <dt>Name:</dt>
+            <dd>Nitin</dd>
+        </dl>
+        <dl>
+            <dt>Age:</dt>
+            <dd>22</dd>
+        </dl>
+    </div>
+    <div class="link">
+        <h2>D.To create link to https://www.prepbytes.com</h2>
+        <a href="https://www.prepbytes.com" target="_blank">Prepbytes.com</a>
+    </div>
+    <div class="img">
+        <h2>E.To Insert an img</h2>
+        <b>a.online image</b><br>
+        <img height="400px" width="600px" src="https://wallpaperaccess.com/download/one-piece-17401" alt="Monkey D.Luffy"><br>
+         <b>b.offline image</b><br>
+         <img heigth="400px" width="600px" src="./2248803.jpg" alt="GOKU-LUFFY-NARUTO"><br>
+    </div>
+    <div class="table">
+        <h2>F.Table</h2>
+        <b>a.table impletation and borders in 2*3 table</b><br><br>
+        <table border="2" cellspacing="10" cellpadding="20px">
+            <tr>
+                <th bgcolor="lightgray">Name:</th>
+                <th bgcolor="lightgray">Surname:</th>
+                <th bgcolor="lightgray">Age:</th>
+            </tr>
+            <tr>
+                <td align="center">Nitin</td>
+                <td align="center">Kanhurkar</td>
+                <td align="center">22</td>
+            </tr>
+        </table><br>
+        <b>b.colspan and rowspan in 4*6 table</b><br><br>
+        <table border="2" cellspacing="10px" cellpadding="20px">
+            <tr>
+                <th bgcolor="lightgray">Name:</th>
+                <th bgcolor="lightgray">Surname:</th>
+                <th bgcolor="lightgray">Age:</th>
+                <th bgcolor="lightgray">DOB:</th>
+                <th bgcolor="lightgray">City:</th>
+                <th bgcolor="lightgray">Country:</th>
+            </tr>
+            <tr>
+                <td align="center" >Nitin</td>
+                <td align="center" rowspan="2">rowspan="2"</td>
+                <td align="center" colspan="2">colspan="2"</td>
+                <!-- <td align="center">07/12/1999</td> -->
+                <td align="center">pune</td>
+                <td align="center" rowspan="3">rowspan="3"</td>
+            </tr>
+            <tr>
+                <td align="center">vishal</td>
+                <!-- <td align="center"></td> -->
+                <td align="center">20</td>
+                <td align="center"colspan=2>colspan="2"</td>
+                <!-- <td align="center">khed</td> -->
+                <!-- <td align="center">India</td> -->
+            </tr>
+            <tr>
+                <td align="center" colspan="4">colspan="4"</td>
+                <!-- <td align="center">Aghawane</td> -->
+                <!-- <td align="center">23</td> -->
+                <!-- <td align="center">21/11/1999</td> -->
+                <td align="center">chakan</td>
+                <!-- <td align="center">India</td> -->
+            </tr>
+        </table>
+        <div class="form">
+            <h2>G.Form</h2>
+            <form action=".anotherstorefile.html">
+                <label for="name" class="bold" >Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Enter your name"><br><br>
+                <label for="age" class="bold" >Age:</label>
+                <input type="number" name="Age" id="age" required placeholder="Enter you age"><br><br>
+                <label for="email" class="bold" >Email:</label>
+                <input type="email" name="mail" id="email" required placeholder="Enter you mail"><br><br>
+                <label for="pass" class="bold" >Password:</label>
+                <input type="password" name="password" id="pass" required placeholder="Enter you password"><br><br>
+                <label for="contact" class="bold" >Contact:</label>
+                <input type="phone number" name="contact" id="contact" required placeholder="Enter you number" minlength="10" maxlength="10"><br><br>
+                <b>Courses:</b><br>
+                <select name="field" id="field">
+                    <option value="choose option">--please choose option--</option>
+                    <option value="Front End Developer">front end developer</option>
+                    <option value="Back End Developer">Back end developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                </select><br><br>
+                <b>Languages:</b><br>
+                        <input type="checkbox" value="JAVA" name="check1" id="check1">
+                        <label for="check1">:JAVA</label><br>
+                        <input type="checkbox" value="PYTHON" name="check2" id="check2">
+                        <label for="check2">:PYTHON</label><br>
+                        <input type="checkbox" value="JS" name="check3" id="check3">
+                        <label for="check3">:<abbr title="JavaScript">JS</abbr></label><br>
+                        <input type="checkbox" value="HTML" name="check4" id="check4">
+                        <label for="check4">:HTML</label><br>
+                        <input type="checkbox" value="CSS" name="check5" id="check5">
+                        <label for="check5">:CSS</label><br>
+                        <input type="checkbox" value="NODE JS" name="check6" id="check6">
+                        <label for="check6">:NODE <abbr title="JavaScript">JS</abbr></label><br>
+                        <input type="checkbox" value="REACT" name="check7" id="check7">
+                        <label for="check7">:REACT</label><br><br>
+                <b>Academy:</b><br>
+                <input type="radio" value="EA" name="r1" id="Elevation Academy">
+                <label for="Elevation Academy">:Elevation Academy</label><br>
+                <input type="radio" value="ITV" name="r1" id="I.T. Vedant">
+                <label for="I.T. Vedant">:I.T. Vedant</label><br>
+                <input type="radio" value="ET" name="r1" id="Ethan's Tech">
+                <label for="Ethan's Tech">:Ethan's Tech</label><br><br>
+                <b>Feedback:</b><br>
+                <textarea name="feedback" id="" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

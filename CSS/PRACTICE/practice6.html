@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hard</title>
+    <style>
+        .cards{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             
+        }
+        .card{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            margin: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width:400px){
+              .cards{
+                  display: block;
+              }
+        }
+        @media(max-width:900px){
+            .cards{
+                justify-content: none;
+                flex-wrap:wrap ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="card">Lorem ipsum dolor sit amet.</div>
+        <div class="card">Lorem ipsum dolor sit amet.</div>
+        <div class="card">Lorem ipsum dolor sit amet.</div>
+    </div>
+</body>
+</html>
