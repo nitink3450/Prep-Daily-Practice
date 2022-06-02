@@ -18,7 +18,7 @@
 //      1.This keyword is used to declare the variable in line which can or cannot be assigned value instantly
 // 2.this cant have variables with same name.
 // 3.this keyword is generally used when a variables value is supposed to be change in the future
-// 4.they r hoisted.
+// 4.they r not hoisted.
 // e.g.let name1 = "Sahil";
 // let name2 = "rajat";
 

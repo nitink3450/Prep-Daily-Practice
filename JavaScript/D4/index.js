@@ -52,7 +52,7 @@
 
 //&&(AND) , ||(OR), !(NOT)
 
-//&&(AND):
+//&&(AND): same as multiplication 0&&0=0, 0&&1=0, 1....if both conditions are true then the o/p will be printed in if else
 
 //first variable is  non zero/true,then the second variable will be output and
 // if first variable is zero/false,then the second variable will be never checked and the output will be zero/false.
@@ -62,7 +62,7 @@
 // console.log(f && g);//3..if f=0 o/p will be 0..if g=0 o/p will be 0
 // console.log(f > 0 &&  g < 11);//true..as (0<0)
 
-//||(OR):
+//||(OR): same as addition 
 
 //if the first  variable is true/non zero, then the second variable will not be checked and the first variable will be the o/p
 //-if the first variable is zero/false ,then the second variable will be checked and the o/p will be the second variable
@@ -83,7 +83,7 @@
 // console.log(! (f<0));//true
 // console.log(!f);//false
 
-//#ternary operators:
+//#Ternary operators:
 
 //if there is condition then o/p will always either be true or false
 
@@ -112,5 +112,5 @@
 // console.log(x);//2
 
 // let x = 1;
-// x = (x++,++x, x);//..rightmost position of the x value
+// x = (x++,++x, x);//....rightmost position of the x value
 // console.log(x);//3

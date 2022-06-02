@@ -38,6 +38,15 @@
     //         return Math.floor(n);
     // };
     // console.log(First_Digit(9767));
+              //or//
+          
+// const First_Digit = (n) => {
+//   return parseInt(n / 1000);
+// };
+// console.log(First_Digit(4567));
+
+
+
 
 // Q.5.Find the last digit of a 4 digit number
       //You are provided a four digit number N only. Your task is to print out the last digit of that number.

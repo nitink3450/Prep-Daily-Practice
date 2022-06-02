@@ -50,7 +50,7 @@
 
 // Bitwise And - a&b.. starts multiplying..1*1=1 1*0=0  0*0=0
 // Bitwise OR - a|b..starts addition..1+1=1 1+0=1 0+0=0
-// Bitwise XOR - a^b.. 0^0=0 1^1=0 1^0=1 0^1=1
+// Bitwise XOR - a^b.. 0^0=0 1^1=0 1^0=1 0^1=1..pairs will give u zero
 // Bitwise NOT - ~a..(negation).increases value by +1 but sign will be negative
 // left shift - a << b...
 //sign propogating right shift- a >> b
@@ -58,18 +58,18 @@
 //1byte=8bits
 //binary operators:
 // 128 64 32 16 8 4 2 1
-//     0=00000000
-//     1=00000001
-//     2=00000010
-//     3=00000011
-//     4=00000100
-//     5=00000101
-//     6=00000110
-//     7=00000111
-//     8=00001000
-//     9=00001001
-//    10=00001010
-
+//     0=00000000  0
+//     1=00000001  1
+//     2=00000010  10
+//     3=00000011  11
+//     4=00000100  0
+//     5=00000101  1
+//     6=00000110  10
+//     7=00000111  11
+//     8=00001000  0 
+//     9=00001001  1
+//    10=00001010  10
+//    11=00001011  11
 
 //o/p type- true/false
 // console.log(2&3);//2...multiplication
