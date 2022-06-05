@@ -32,8 +32,8 @@
 
 //C.if (else if) and else block:
 
-///if the block is same as above 
-//first we check for if blocks condition,if the if blocks conditions is true then the if block gets executed otherwise
+///if block is same as above 
+//first we check for if blocks condition.if, the if blocks conditions is true then the if block gets executed otherwise
 //wee move to the elseif block
 //elseif block also has a condition to check, if that condition is true then the elseif block gets executed,
 //otherwise the else block executed,and as usual there is no condition checking for the else block.
@@ -49,6 +49,32 @@
 // else{
 //     console.log("senior citizen");
 // }
+
+//Switch statements:
+
+//it is used to handle more than or equal to 4 statements(also we can use if elseif elseif else but its too lenghti)
+
+let number = 4;
+switch (number){
+    case 1:
+        console.log("i am number1");
+        break;//after break it will come out the switch case
+    case 2:
+        console.log("i am number 2");
+        break;
+    case 3:
+        console.log("i am number 3");
+        break;
+    case 4:
+        console.log("i am number 4");
+        break;
+    case 5:
+        console.log("i am number 5");
+        break;
+    default:
+        console.log("i am number greater than 5");
+        break;
+}
 
 
 
