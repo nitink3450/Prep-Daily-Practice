@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+<body>
+    <img usemap="#shapes" src="./Screenshot 2022-06-06 101715.png" alt="shapes">
+
+    <map name="shapes">
+        <area shape="circle" coords="134,80,65" href="./circle.html" alt="">   
+        <!-- coords="left=134,top=80,radius=65"  -->
+        <area shape="poly" coords="333,17,403,141,261,142" href="./tri.html" alt="">
+        <!-- coords="shape="poly"..compulsory 1st corner: x=333,y=17,2nd corner: x=403,y=141,3rd corner: x=261,y=142  -->
+        <area shape="rect" coords="464,31,636,128" href="./rect.html" alt="">
+        <!-- coords="shape="rect"..compulsory topleftcorner(x,y)=464,31..bottonrightcorner(x,y)=636,128  -->
+        
+    </map>
+</body>
+</html>
