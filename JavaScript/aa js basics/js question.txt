@@ -1,0 +1,203 @@
+
+What is Javascript ?
+
+
+Javascript is designeed by Brenden IIC who is an Computer Science Programmer  and he deviolped the javascript and he developed the javascript engine and it was first introduced in the Netscape 
+
+Javascript is an World wide Popular Programming Langauge its ranks 1st in world 
+
+1.Javascript is an single threaded Synchronous Language 
+
+Synchoronous Language:Executes Line by line 
+Asyncoronous Language:Which will be executed Later which means it will not be going in sequential Mannner ex:Set time out,Promises and set Interval 
+
+2.Javascript is an Scripting Language 
+
+Scripting :Scripting Language is a programming Language that employes a high level construct to interpeter and exdecute command line by line 
+
+3.Javascript is an Dynamic type Language 
+
+4.Functional Programming Language 
+
+5.Easily Interact with Web Pages 
+
+
+Javascript Engine : A javascript Engine is a software Componment that executes javascript Code
+
+1)V8 Engine -->Chrome 
+2)Spider Monkey -->Mozilla Firefox 
+3)Microsft Edge -->Chakra 
+
+Javascript  Engine is Not a machine its an Programming Language 
+
+javascript is an  JIT(just in time ) compilation i.e combination of Compiler and Interpeter
+
+
+Compiler -->Where total code is going to be executed once -->Efficiency 
+
+Interpeter -->Converts the code line by line -->Fast 
+
+Javascript is an combination of Compiler (Efficiency)and Interpeter(fast)
+
+
+TDZ:A temperal dead Zone is the area of block  where a variable is inaccessible until the moment the computer completely initlaiziates it with a value 
+
+{
+
+let and const (block)
+
+}
+
+Hoisting :Hoisting is a javascript default behaviour (or)Mecahnism where variables and function declarations are 
+moved to top of there scope before code Execution
+
+Only declarations are hoisted not initilizations
+
+
+Var is an Global scope 
+var can be modified
+var can be redeclared 
+
+
+let is an Block scope
+let can be modified 
+let cannot be redeclared
+
+Const is an Block scope 
+const cannot be modified
+const cannot be redeclared
+
+
+
+
+Type of Operator:Type of operator is used for type checking and it will return the data type of operand we pass
+
+
+console.log(typeOf(operand))
+
+
+Difference between == & === ?
+
+
+These Both are Comparision Operators 
+
+== compares only the values 
+=== compares both value and data types 
+
+
+Null :It can be called as invalid value (void)
+Undefined :if we decloare an variable not initialazing any value to it is known as undefined
+
+NAN:Nan stands for Not a Number and its an global object 
+
+if we try to perform arithmetic operations with the operators it will try to give NAN
+
+NAN is a number data type 
+
+Function:Function is a block of code which is used to perform a particular task 
+A function is executed when something called (invoke).
+---> write once call Multiple times
+
+syntax:function functionname( params1,params2){
+
+
+//logic of code
+
+}
+
+functionname(arguments) --> Invoking 
+
+Console //just for printing the output in the console 
+return //end of the scope and we cant write anything after return keyword
+and return values need to be store on another variable
+
+
+Anonymous Function:A function which is not having any name and it should be assiged to some variable otherwise we will get error and also we cant invoke it
+
+
+IIFE :its known as Immeditely Invoked Function Expression 
+that runs(Invoked)as soon it is defined 
+
+We can call only once of our IIFE 
+
+And its going to be for Confidential Infromation 
+
+
+High Order Function :High order Function is a function that takes another function as an argument (or) return function as the result 
+
+First class Function:A Programming Language is said to have first class function when function in that language are treated like any other variable 
+
+1.We can assign a function to an variable 
+
+2.we can pass a function as an argument 
+
+3. Function can be returned by another function 
+
+
+Function Expression:Its an Anynomous function that is going to be stored as an variable but function expression can have function name also 
+
+
+
+Pure Functions :Pure Functions are functions that accepts an input and return a value without modifying any data outside its scope 
+
+Pure Functions are function(block of code ) that will always return the same result for same arguments 
+and its having no side effects and its predictible 
+
+
+Callback Functions:A callback is a function that is passsed as an argument to another function 
+
+
+
+Generator Function:It was introduced in EcmaScript(E.S 6) 
+
+Normal Function:Once a function starts running it will try to compile line by line all our code is executed once 
+
+Geenerator Function:We have diferent kind of function which we can pause or code and run another again and again resume the code 
+
+
+Operators:An operator is a special symbol used to perform operations on operands
+                                  (+,-,*,/)                             (a,b,6,7)
+
+
+
+1.Arithmetic Operators
+2.Logical Operators 
+3.Relational Operators 
+4.Conditional Operators 
+5.Bitwise Operators 
+6.Assignment Operators 
+
+
+Closure:A Closure is a combination of function bundled together with its lexical enivorment scope(sorrounding state)
+
+
+a closer gives you access to the outer variables 
+
+
+
+Currying:The name Currying is originated from an American Mathematician named Haskell Curry 
+
+
+Currying is the transformation of function with multiple arguments into a sequence of single argument functions
+
+f(a,b,c) f(a)(b)(c)
+
+
+
+What is the difference bw Map and forEach ?
+
+
+Map:The map method allows you to execute a function with each element of an array but the difference is create a 
+new array using the return values of these functions.
+
+Foreach:We can loop through each and every element in the array but we cannot return the function gives you undefined
+
+Difference:return the function
+
+
+
+
+
+
+
+

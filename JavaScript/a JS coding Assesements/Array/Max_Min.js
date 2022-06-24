@@ -31,7 +31,28 @@ N = arr1.length;
 console.log(arrayMin(arr1,N),arrayMax(arr1,N));
 
 
-
+// function arrayMin(arr) {
+//     let min=arr[0];
+//     for (let p of arr){
+//       if(min>p){
+//         min=p;
+//       }
+//     }
+//     return min;
+  
+//   }
+  
+//   function arrayMax(arr) {
+//    let max=arr[0]
+//    for(let p of arr){
+//      if(max<p){
+//        max=p;
+//      }
+//    }
+//    return max;
+  
+//   }
+  
 
 
 

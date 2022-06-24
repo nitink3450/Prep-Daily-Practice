@@ -55,7 +55,19 @@ console.log(Birthday_Game(arr,5,2));
 // console.log(Birthday_Game(arr,5,2));
 
 
+// Birthday Game
 
+// let finalCount=0;
+//  for(let i=0;i<(arr.toString().length-M);i++){
+//    let count=0;
+//    for(let j=i;j<(i+M);j++){
+//      count+=arr[j];
+//    }
+//    if(count===D){
+//      finalCount+=1
+//    }
+//  }
+//  return finalCount;
 
 
 
