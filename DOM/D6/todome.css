@@ -1,0 +1,11 @@
+#div{
+    height: 200px;
+    width: 180px;
+    background-color: lightgray;
+    border:black solid 3px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#taskhead{
+    text-align: center;
+}
