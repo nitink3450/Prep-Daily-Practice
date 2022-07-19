@@ -1,11 +1,11 @@
 //#Arithmatic operators:
-// 1.Addition
-// 2.Substraction
-// 3.Multiply
-// 4.Division- quotient
-// 5.Modulus-remainder
+// 1.Addition '+'
+// 2.Substraction '-'
+// 3.Multiply '*'
+// 4.Division- quotient '/'
+// 5.Modulus-remainder '%'
 
-// console.log(2+3);//5
+// console.log(2+3);//5 
 // console.log(2-3);//-1
 // console.log(2*3);//6
 // console.log(2/3);//0.666666666
@@ -13,7 +13,7 @@
 
 //adding string
 // console.log("hii" + "Shyam");//hiishyam..(this called as concatenation of strings)
-// console.log("hii" +" "+ "Shyam");//hiishyam..(this called as concatenation of strings)..for adding space add double add
+// console.log("hii" +" "+ "Shyam");//hii shyam..(this called as concatenation of strings)..for adding space add double add
 // console.log("hii" - "Shyam");//Nan-Not a number
 // console.log("hii" * "Shyam");//Nan-Not a number
 // console.log("hii" / "Shyam");//Nan-Not a number
@@ -86,6 +86,7 @@
 
 // console.log(4 >> 3);//0....it will shift right by 3 in binary
 // console.log(8 >> 3);//1....it will shift right by 3 in binary
+
 
 // console.log(17 >>> 3);//2....add 3 zeros 
 // 00010001=[000,00010]001..bracket has value 2
